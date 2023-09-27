@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/', Routes);
 
-app.get("/",(req,res)=>{
+app.get("/", (req, res) => {
     res.json("HELLO...");
 })
 
